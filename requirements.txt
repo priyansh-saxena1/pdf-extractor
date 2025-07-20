@@ -1,0 +1,9 @@
+onnxruntime
+onnx
+pytesseract
+PyMuPDF
+Pillow
+fasttext-wheel
+numpy
+opencv-python-headless
+jsonschema 
