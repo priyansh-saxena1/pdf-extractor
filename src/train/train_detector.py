@@ -126,7 +126,7 @@ class HeadingDetectorTrainer:
             # Export arguments
             args = {
                 'weights': weights,
-                'img_size': [self.img_size, self.img_size],
+                'imgsz': [self.img_size, self.img_size],  # Updated parameter name from img_size to imgsz
                 'batch_size': 1,
                 'device': 'cpu',
                 'include': ['onnx'],
